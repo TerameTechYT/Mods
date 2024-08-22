@@ -2,7 +2,7 @@
 <ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Titan</Name>
   <Author>vinus</Author>
-  <Version>1.0.2</Version>
+  <Version>1.0.0</Version>
   <Description>
     [h1] Titan [/h1]
     [i] Titan is the largest moon of Saturn and the second-largest natural satellite in the Solar System. It is the only moon known to have a dense atmosphere, and is the only known object in space other than Earth on which clear evidence of stable bodies of surface liquid have been found. Do you have what it takes to survive, or will you perish in this frozen wasteland? [/i]
@@ -39,7 +39,10 @@
     [h3] Starting Conditions: [/h3]
     [i] To accompany you on your frosty journey, we have accompanied you with some supplies. [/i]
     Start Conditions Match closely to Mimas and Europa
-   
+    
+    [h3] The source code is open on github! [/h3]
+    [i] You are totally welcome to modify this to your liking, or even use it as a base! [/i]
+    https://github.com/TerameTechYT/Stationeers
   </Description>
   <WorkshopHandle>3233447478</WorkshopHandle>
   <Tags>
