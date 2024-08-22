@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CelestialBodies>
+		<CelestialBody Id="Ceres">
+			<Orbit SemiMajorAxisAu="2.77" Period="1680" Inclination="10.6" Eccentricity="0.0785" LongitudeOfAscendingNode="80.3" ArgumentOfPeriapsis="73.6" />
+			<Color r="0.6" g="0.5" b="0.5" />
+			<LongitudeAtEpoch>192.2589</LongitudeAtEpoch>
+		</CelestialBody>
+	</CelestialBodies>
+</GameData>

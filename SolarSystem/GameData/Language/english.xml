@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>English</Name>
+  <Code>EN</Code>
+  <Font>font_english</Font>
+  <Interface>
+    <!--              -->
+    <!-- Solar System -->
+    <!--              -->
+
+    <!-- Mercury -->
+    <Record>
+      <Key>Mercury</Key>
+      <Value>Mercury</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaMercury</Key>
+      <Value>Mercury (Sol)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldDescriptionMercury</Key>
+      <Value>Venture to the mysterious and extreme world of Mercury, the smallest planet in our Solar System. With a landscape dotted by craters and vast plains, Mercury offers a challenging environment with temperatures that swing from blistering heat to freezing cold. Navigate the planet's rugged terrain and uncover hidden secrets beneath its scarred surface. As you brave Mercury's thin atmosphere and weak magnetic field, remember, this planet is a test of survival and skill, offering unique resources and ancient mysteries for those daring enough to explore its unforgiving landscape.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionMercury</Key>
+      <Value>Mercury Default</Value>
+    </Record>
+
+    <!-- Venus -->
+    <Record>
+      <Key>Venus</Key>
+      <Value>Venus</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaVenus</Key>
+      <Value>Venus (Sol)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldVenusShortDesc</Key>
+      <Value>Embark on an extraordinary expedition to Venus, Earth's enigmatic sister planet shrouded in mystery and extreme conditions. Venus' thick, toxic atmosphere traps heat, making it the hottest planet in our solar system with temperatures soaring above 450°C (850°F). As you navigate this challenging yet mesmerizing world, uncover the secrets that Venus holds, pushing the boundaries of human knowledge and understanding of our planetary neighbors. Despite its hostile environment, Venus holds clues to Earth's climate history and the possibility of past oceans.</Value>
+    </Record>
+
+    <!-- Mars -->
+    <Record>
+      <Key>Mars</Key>
+      <Value>Mars</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaMars</Key>
+      <Value>Mars (Sol)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMarsShortDesc</Key>
+      <Value>Set forth on an epic adventure to Mars, the Red Planet, where the landscape is a mix of awe-inspiring beauty and scientific wonder. With its towering volcanoes like Olympus Mons, the largest in the Solar System, and the vast canyon system of Valles Marineris, Mars offers an array of natural marvels to explore. Traverse its rust-colored deserts, ancient river valleys, and polar ice caps, searching for signs of past life and the secrets hidden in its soil. Mars' thin atmosphere and seasonal dust storms add an element of challenge to your mission, while its potential for human colonization stirs the imagination. As you navigate this intriguing world, uncovering its mysteries and tapping into its resources, you become part of the legacy of exploration that stretches from Earth to the stars. Mars is a frontier of endless possibilities, waiting for you to make your mark.</Value>
+    </Record>
+
+    <!-- Phobos -->
+    <Record>
+      <Key>Phobos</Key>
+      <Value>Phobos</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaPhobos</Key>
+      <Value>Phobos (Mars)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldDescriptionPhobos</Key>
+      <Value>Embark on a daring mission to Phobos, the larger of Mars' two enigmatic moons and a captivating frontier for intrepid explorers. This potato-shaped moon, covered in craters and grooves, offers a unique and rugged landscape where every step is a challenge. With its low gravity, Phobos presents opportunities for innovative exploration techniques and thrilling adventures across its surface. Discover the secrets of Stickney Crater, the largest impact site on Phobos, and investigate the mysterious grooves that crisscross its terrain. As you delve into the mysteries of this small but fascinating moon, you'll gain insights into the early Solar System and Mars itself. Phobos is a stepping stone for future missions, offering rich scientific rewards and the thrill of venturing into the unknown.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionPhobos</Key>
+      <Value>Phobos Default</Value>
+    </Record>
+
+    <!-- Deimos -->
+    <Record>
+      <Key>Deimos</Key>
+      <Value>Deimos</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaDeimos</Key>
+      <Value>Deimos (Mars)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldDescriptionDeimos</Key>
+      <Value>Set your sights on Deimos, the smaller and more distant of Mars' two moons, a tiny world filled with mystery and potential. This diminutive, irregularly shaped moon, with its smooth, dusty surface and gentle slopes, offers a serene yet enigmatic landscape for exploration. Deimos' low gravity and small size make it a unique challenge for landing and maneuvering, but its secrets are well worth the effort. Investigate its shallow craters and the fine regolith that blankets its surface, searching for clues about its origin and the history of the Martian system. As you traverse this tranquil moon, you'll contribute to our understanding of small celestial bodies and pave the way for future missions to the Martian system. Deimos may be small, but it holds big opportunities for discovery and adventure.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionDeimos</Key>
+      <Value>Deimos Default</Value>
+    </Record>
+
+    <!-- Earth -->
+    <Record>
+      <Key>Earth</Key>
+      <Value>Earth</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEarth</Key>
+      <Value>Earth (Sol)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldDescriptionEarth</Key>
+      <Value>Embark on a journey of rediscovery to Earth, the blue jewel of the Solar System and the cradle of all known life. With its vast oceans teeming with biodiversity, lush green forests, towering mountain ranges, and sprawling deserts, Earth's diverse landscapes offer endless opportunities for exploration and wonder. Experience the vibrant ecosystems that sustain life, from the depths of the ocean to the peaks of the highest mountains. Study the complex interplay of its atmosphere, climate, and geology that create the perfect conditions for life. Delve into the rich tapestry of human culture and history, uncovering the stories that have shaped our world. Earth is a planet of unparalleled beauty and complexity, a living laboratory where science and adventure intertwine, reminding us of the delicate balance that sustains life and the boundless potential for future exploration.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionEarth</Key>
+      <Value>Earth Default</Value>
+    </Record>
+
+    <!-- Moon -->
+    <Record>
+      <Key>Moon</Key>
+      <Value>Moon</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaMoon</Key>
+      <Value>Moon (Earth)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMoonShortDesc</Key>
+      <Value>Embark on a legendary journey to the Moon, Earth's closest celestial neighbor and the cornerstone of human space exploration. With its vast plains of ancient basaltic lava, towering mountains, and countless craters, the Moon's stark and rugged landscape offers a unique blend of beauty and challenge. Traverse the famous Sea of Tranquility, where humanity first set foot on another world, and explore the mysterious far side, shrouded in perpetual silence. The Moon's low gravity and lack of atmosphere create a surreal environment, perfect for discovering hidden resources and conducting groundbreaking scientific research. As you uncover the secrets of our lunar companion, you pave the way for future missions deeper into the cosmos. The Moon awaits, a gateway to the stars and a testament to human curiosity and ambition.</Value>
+    </Record>
+
+    <!-- Ceres -->
+    <Record>
+      <Key>Ceres</Key>
+      <Value>Ceres</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaCeres</Key>
+      <Value>Ceres (Dwarf)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldDescriptionCeres</Key>
+      <Value>Embark on an epic adventure to Ceres, the largest object in the asteroid belt between Mars and Jupiter. As a dwarf planet, Ceres boasts a mysterious and diverse landscape, featuring towering ice volcanoes, vast salt flats, and intriguing bright spots that hint at subsurface oceans. Navigate its rugged terrain and delve into ancient craters, uncovering secrets of the early Solar System. With a thin, tenuous atmosphere and a surface rich in water ice, Ceres offers a unique blend of challenges and rewards. Unravel the mysteries of this ancient world, harness its resources, and uncover the hidden history of our celestial neighborhood.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionCeres</Key>
+      <Value>Ceres Default</Value>
+    </Record>
+
+    <!-- Io -->
+    <Record>
+      <Key>Io</Key>
+      <Value>Io</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaIo</Key>
+      <Value>Io (Jupiter)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldDescriptionIo</Key>
+      <Value>Dive into the volcanic chaos of Io, Jupiter's innermost moon and the most geologically active body in the Solar System. With over 400 active volcanoes, Io's landscape is constantly changing, dominated by towering volcanic plumes, vast lava lakes, and molten rock flows. Its vibrant surface, painted in shades of yellow, red, and white by sulfur and sulfur dioxide, presents a stark contrast to the cold vacuum of space. Traverse this dynamic, ever-changing terrain, where every step could lead to new discoveries or sudden danger. Io's extreme environment offers a thrilling challenge for explorers, promising unique resources and unparalleled scientific insights into the forces shaping our Solar System.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionIo</Key>
+      <Value>Io Default</Value>
+    </Record>
+
+    <!-- Europa -->
+    <Record>
+      <Key>Europa</Key>
+      <Value>Europa (Jupiter)</Value>
+    </Record>
+    <Record>
+      <Key>Europa2</Key>
+      <Value>Europa (Jupiter)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEuropa</Key>
+      <Value>Europa (Jupiter)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEuropa2</Key>
+      <Value>Europa (Jupiter)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldEuropaShortDesc</Key>
+      <Value>Embark on a captivating expedition to Europa, Jupiter's icy moon and one of the most promising places to search for extraterrestrial life. Beneath its smooth, fractured surface of water ice lies a vast subsurface ocean, kept warm by tidal forces from Jupiter's immense gravity. Navigate Europa's intricate network of ice ridges and cracks, exploring the chaotic terrain and mysterious dark streaks that hint at the dynamic processes below. Drill through the ice to sample the hidden ocean, where the potential for life-sustaining environments sparks the imagination. Europa's unique combination of a frozen exterior and a hidden liquid heart makes it a prime destination for discovery and adventure, challenging you to unlock the secrets of this enigmatic moon and the possibilities it holds for life beyond Earth.</Value>
+    </Record>
+
+    <!-- Ganymede -->
+    <Record>
+      <Key>Ganymede</Key>
+      <Value>Ganymede</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaGanymede</Key>
+      <Value>Ganymede (Jupiter)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldDescriptionGanymede</Key>
+      <Value>Set out on an epic quest to Ganymede, Jupiter's largest moon and the biggest satellite in our Solar System. With a diameter greater than Mercury, Ganymede boasts a diverse landscape of vast ice plains, towering mountain ranges, and deep, mysterious grooves. Beneath its icy crust lies a hidden ocean, potentially harboring the secrets of extraterrestrial life. Ganymede's thin atmosphere, composed primarily of oxygen, and its unique magnetic field add layers of intrigue to this celestial giant. Explore the moon's captivating terrain, uncover ancient geological features, and harness its abundant resources. Ganymede's blend of beauty and mystery offers a thrilling backdrop for adventures filled with discovery and excitement.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionGanymede</Key>
+      <Value>Ganymede Default</Value>
+    </Record>
+
+
+    <!-- Callisto -->
+    <Record>
+      <Key>Callisto</Key>
+      <Value>Callisto</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaCallisto</Key>
+      <Value>Callisto (Jupiter)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldDescriptionCallisto</Key>
+      <Value>Journey to Callisto, Jupiter's ancient and enigmatic moon, where the scars of billions of years tell a story of the early Solar System. As the most heavily cratered object known, Callisto's surface is a mosaic of ancient impacts, with vast basins and bright ice peaks reflecting the distant sun. Its intriguing landscape, largely untouched by geological activity, makes it a perfect canvas for uncovering the secrets of the cosmos. Beneath the icy crust, a subsurface ocean may hold clues to potential life. Navigate this frozen, primordial world, tap into its hidden resources, and unveil the mysteries locked within its icy depths. Callisto offers a unique blend of exploration and discovery, a testament to the enduring allure of the outer Solar System.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionCallisto</Key>
+      <Value>Callisto Default</Value>
+    </Record>
+
+    <!-- Mimas -->
+    <Record>
+      <Key>Mimas</Key>
+      <Value>Mimas</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaMimas</Key>
+      <Value>Mimas (Saturn)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldMimasShortDesc</Key>
+      <Value>Embark on a daring mission to Mimas, Saturn's enigmatic moon, often likened to the "Death Star" due to its prominent Herschel Crater. This small, icy world, just 396 kilometers (246 miles) in diameter, presents a landscape dominated by craters and deep chasms. The colossal Herschel Crater, spanning nearly a third of Mimas' diameter, offers a dramatic terrain to explore, with towering cliffs and central peaks. Despite its frozen exterior, Mimas might harbor secrets about the early Solar System and the processes that shaped its formation. Navigate its rugged surface, study the impact craters, and investigate the moon's composition. Mimas is a gateway to understanding the icy bodies of the outer Solar System, offering a thrilling adventure filled with scientific discovery and the allure of the unknown.</Value>
+    </Record>
+
+    <!-- Enceladus -->
+    <Record>
+      <Key>Enceladus</Key>
+      <Value>Enceladus</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaEnceladus</Key>
+      <Value>Enceladus (Saturn)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldDescriptionEnceladus</Key>
+      <Value>Embark on a thrilling expedition to Enceladus, Saturn's icy moon renowned for its dazzling geysers and hidden ocean. Enceladus' surface, a glistening expanse of pure ice, is crisscrossed by fissures that spew plumes of water vapor and organic molecules into space. Beneath its frozen crust lies a vast, salty ocean, a potential cradle for extraterrestrial life. Explore the moon's stark, icy landscape, navigate the treacherous terrain of its "tiger stripes," and collect samples from the plumes that offer clues to its mysterious subsurface ocean. Enceladus is a captivating world of scientific wonder and breathtaking beauty, promising adventures that reveal the secrets of life beyond Earth.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionEnceladus</Key>
+      <Value>Enceladus Default</Value>
+    </Record>
+
+    <!-- Tethys -->
+    <Record>
+      <Key>Tethys</Key>
+      <Value>Tethys</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaTethys</Key>
+      <Value>Tethys (Saturn)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldDescriptionTethys</Key>
+      <Value>Embark on an exciting mission to Tethys, one of Saturn's captivating moons, known for its bright, icy surface and dramatic geological features. Dominated by the colossal Odysseus Crater, which spans nearly half its diameter, Tethys offers a striking landscape of rugged terrain and steep cliffs. Explore Ithaca Chasma, a vast canyon system that stretches across the moon, providing a glimpse into the tectonic forces that have shaped this frozen world. The icy surface of Tethys, reflecting sunlight with dazzling brightness, is interspersed with mysterious dark streaks and impact craters. As you navigate this intriguing moon, uncover clues about its formation and the history of the Saturnian system. Tethys is a testament to the dynamic and diverse nature of Saturn's moons, offering explorers a chance to delve into the mysteries of an ancient, icy world.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionTethys</Key>
+      <Value>Tethys Default</Value>
+    </Record>
+
+    <!-- Dione -->
+    <Record>
+      <Key>Dione</Key>
+      <Value>Dione</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaDione</Key>
+      <Value>Dione (Saturn)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldDescriptionDione</Key>
+      <Value>Set out on a fascinating adventure to Dione, one of Saturn's enigmatic moons, where ancient ice and geological marvels await. With a surface marked by bright ice cliffs, deep canyons, and vast plains, Dione offers a landscape rich in contrast and history. Investigate the dramatic ice cliffs formed by tectonic fractures, and traverse the moon's icy plains, pockmarked by craters from ancient impacts. The mysterious wispy streaks that adorn Dione's surface hint at past cryovolcanic activity, adding an element of intrigue to your exploration. Beneath its frozen crust, a potential subsurface ocean may exist, promising new discoveries and insights into the moon's geology and potential habitability. As you explore Dione, uncover the secrets of this captivating world and the dynamic processes that continue to shape the Saturnian system.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionDione</Key>
+      <Value>Dione Default</Value>
+    </Record>
+
+    <!-- Rhea -->
+    <Record>
+      <Key>Rhea</Key>
+      <Value>Rhea</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaRhea</Key>
+      <Value>Rhea (Saturn)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldDescriptionRhea</Key>
+      <Value>Set out on a fascinating adventure to Rhea, one of Saturn's enigmatic moons, where ancient ice and geological marvels await. With a surface marked by bright ice cliffs, deep canyons, and vast plains, Dione offers a landscape rich in contrast and history. Investigate the dramatic ice cliffs formed by tectonic fractures, and traverse the moon's icy plains, pockmarked by craters from ancient impacts. The mysterious wispy streaks that adorn Dione's surface hint at past cryovolcanic activity, adding an element of intrigue to your exploration. Beneath its frozen crust, a potential subsurface ocean may exist, promising new discoveries and insights into the moon's geology and potential habitability. As you explore Dione, uncover the secrets of this captivating world and the dynamic processes that continue to shape the Saturnian system.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionRhea</Key>
+      <Value>Rhea Default</Value>
+    </Record>
+
+    <!-- Titan -->
+    <Record>
+      <Key>Titan</Key>
+      <Value>Titan</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaTitan</Key>
+      <Value>Titan (Saturn)</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldDescriptionTitan</Key>
+      <Value>Embark on a thrilling journey to Titan, Saturn's largest moon and one of the most intriguing worlds in our Solar System. Shrouded in a thick, orange-hued atmosphere rich in nitrogen, Titan's surface features vast hydrocarbon lakes, rivers of liquid methane, and towering ice volcanoes. Experience the eerie, otherworldly landscape where water ice is as hard as rock and organic compounds rain down from the sky. Unravel the secrets of this enigmatic moon, where the potential for life and hidden treasures await intrepid explorers. Titan's unique environment challenges your ingenuity and resilience, offering endless opportunities for discovery and adventure.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionTitan</Key>
+      <Value>Titan Default</Value>
+    </Record>
+
+    <!--               -->
+    <!-- Vulcan System -->
+    <!--               -->
+
+    <!-- Vulcan -->
+    <Record>
+      <Key>Vulcan</Key>
+      <Value>Vulcan</Value>
+    </Record>
+    <Record>
+      <Key>NewWorldAreaVulcan</Key>
+      <Value>Vulcan (Janus)</Value>
+    </Record>
+  </Interface>
+</Language>

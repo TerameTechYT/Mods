@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Titan</Name>
+  <Author>vinus</Author>
+  <Version>1.0.2</Version>
+  <Description>
+    [h1] Titan [/h1]
+    [i] Titan is the largest moon of Saturn and the second-largest natural satellite in the Solar System. It is the only moon known to have a dense atmosphere, and is the only known object in space other than Earth on which clear evidence of stable bodies of surface liquid have been found. Do you have what it takes to survive, or will you perish in this frozen wasteland? [/i]
+
+    [h3] Energy Production [/h3]
+    [i] Due to Titans measly solar energy, solar panels are a no-go [/i]
+    [i] The lack of coal deposits makes the solid generator useless. [/i]
+    [i] Wind Turbines on will be your best friend for energy generation. [/i]
+
+    [h3] Minerals: [/h3]
+    [i] Titan has a lack of surface deposits of hydrocarbon, steel will have to be forged with charcoal. [/i]
+    No Hydrocarbon, however deepminers can dig into deposits deep underground.
+    No Uranium (as it doesnt actually do anything)
+    Abundant Water Ice
+
+    [h3] Atmosphere Conditions: [/h3]
+    [i] Titans cold temperatures make methane in the atmosphere begin to liquify. [/i]
+    Temperature Kelvin: 93.7 °K
+    Temperature Celcius: -179.45 °C
+    Pressure: 146.63 kPa
+
+    [h3] Atmosphere Conditions (During Storm): [/h3]
+    [i] From time to time, Titans methane clouds will rain, causing acid storms to form. [/i]
+    Temperature Kelvin: 121 °K
+    Temperature Celcius: -152.15 °C
+    Pressure: 189.062 kPa
+
+    [h3] Atmosphere Composition: [/h3]
+    [i] Titans atmosphere is mostly nitrogen, with a small amount of methane. [/i]
+    98.4% Nitrogen (at 1481 mol)
+    ~1.37% Methane (as Volatiles) (at 20.7 mol)
+    ~0.27% Liquid Methane (as Liquid Volatiles) (at 1.7 mol, 1.6 L)
+
+    [h3] Starting Conditions: [/h3]
+    [i] To accompany you on your frosty journey, we have accompanied you with some supplies. [/i]
+    Start Conditions Match closely to Mimas and Europa
+   
+  </Description>
+  <WorkshopHandle>3233447478</WorkshopHandle>
+  <Tags>
+    <Tag>World Settings</Tag>
+    <Tag>Start Conditions</Tag>
+  </Tags>
+</ModMetadata>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <WorldObjective Id="Tips">
+        <Name Value="Tips" />
+        <Objective Id="ThanksForPlaying" />
+        <Objective Id="TitanLiquidNotice" />
+    </WorldObjective>
+
+    <Objective Id="ThanksForPlaying">
+        <Name Key="WorldObjectiveThanksForPlayingNotice"/>
+        <Notice Key="WorldObjectiveAcknowledgeAndDismiss"/>
+        <Info Key="WorldObjectiveThanksForPlayingNoticeInfo"/>
+    </Objective>
+
+    <Objective Id="TitanLiquidNotice">
+        <Name Key="WorldObjectiveTitanLiquidNotice"/>
+        <Notice Key="WorldObjectiveAcknowledgeAndDismiss"/>
+        <Info Key="WorldObjectiveTitanLiquidNoticeInfo"/>
+
+        <Trigger>
+            <ObjectiveComplete Id="BuildRoomWithDoor" />
+        </Trigger>
+    </Objective>
+</GameData>

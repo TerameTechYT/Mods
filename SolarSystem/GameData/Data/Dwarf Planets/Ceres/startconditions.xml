@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+  <!--                        -->
+  <!-- Crate Spawn Conditions -->
+  <!--                        -->
+
+  <Spawn Id="ConstructionSuppliesCeres">
+    <DynamicThing Id="CrateMkII">
+      <Name Value="Construction Supplies Ceres"/>
+      <Color Id="Yellow"/>
+      <Item Id="ItemKitArcFurnace"/>
+      <Item Id="ItemKitAutolathe"/>
+      <Item Id="ItemIronFrames">
+        <Quantity Value="30"/>
+      </Item>
+      <Item Id="ItemIronFrames">
+        <Quantity Value="15"/>
+      </Item>
+      <Item Id="ItemKitWallIron">
+        <Quantity Value="30"/>
+      </Item>
+      <Item Id="ItemKitWallIron">
+        <Quantity Value="30"/>
+      </Item>
+      <Item Id="ItemIronSheets">
+        <Quantity Value="50"/>
+      </Item>
+      <Item Id="ItemIronSheets">
+        <Quantity Value="50"/>
+      </Item>
+      <Item Id="ItemPlasticSheets">
+        <Quantity Value="50"/>
+      </Item>
+      <Item Id="ItemGlassSheets">
+        <Quantity Value="50"/>
+      </Item>
+    </DynamicThing>
+  </Spawn>
+
+  <Spawn Id="ElectricalSuppliesCeres">
+    <DynamicThing Id="CrateMkII">
+      <Name Value="Electrical Supplies Ceres"/>
+      <Color Id="Orange"/>
+      <Item Id="ItemBatteryChargerSmall"/>
+      <Item Id="ItemCableCoil">
+        <Quantity Value="50"/>
+      </Item>
+      <Item Id="ItemAreaPowerControl">
+        <Quantity Value="2"/>
+      </Item>
+      <Item Id="ItemBatteryCellLarge">
+        <Charge State="Full"/>
+      </Item>
+      <Item Id="ItemBatteryCellLarge">
+        <Charge State="Full"/>
+      </Item>
+      <Spawn Id="PortableGeneratorPackage"/>
+    </DynamicThing>
+  </Spawn>
+
+  <Spawn Id="HydroponicsSuppliesCeres">
+    <DynamicThing Id="CrateMkII">
+      <Name Value="Hydroponics Supplies Ceres"/>
+      <Color Id="Green"/>
+      <Item Id="SeedBag_Switchgrass">
+        <Quantity Value="5"/>
+      </Item>
+      <Item Id="SeedBag_Switchgrass">
+        <Quantity Value="5"/>
+      </Item>
+      <Item Id="ItemKitGrowLight"/>
+      <Item Id="ItemHydroponicTray">
+        <Quantity Value="5"/>
+      </Item>
+      <Item Id="ItemHydroponicTray">
+        <Quantity Value="5"/>
+      </Item>
+      <Item Id="ItemKitPipeUtilityLiquid">
+        <Quantity Value="1"/>
+      </Item>
+      <Item Id="ItemKitPipeLiquid">
+        <Quantity Value="20"/>
+      </Item>
+      <Item Id="ItemLiquidCanisterEmpty"/>
+      <Item Id="ItemKitIceCrusher"/>
+      <Item Id="ItemKitWaterBottleFiller">
+        <Quantity Value="1"/>
+      </Item>
+    </DynamicThing>
+  </Spawn>
+
+  <Spawn Id="SurvivalSuppliesCeres">
+    <DynamicThing Id="CrateMkII">
+      <Name Value="Survival Supplies Ceres"/>
+      <Color Id="Red"/>
+      <Spawn Id="WaterBottlePackage"/>
+      <Spawn Id="CerealBarBox"/>
+      <Spawn Id="CerealBarBox"/>
+      <Item Id="ItemBeacon">
+        <Item Id="ItemBatteryCell" SlotId="Battery">
+          <Charge State="Full"/>
+        </Item>
+      </Item>
+      <Item Id="ItemReusableFireExtinguisher">
+        <Item Id="ItemLiquidCanisterEmpty">
+          <Name Value="Liquid Co2"/>
+          <Color Id="Gray"/>
+          <Gas Type="LiquidCarbonDioxide" Litres="12" Celsius="-40"/>
+        </Item>
+      </Item>
+      <Item Id="ItemFlagSmall">
+        <Quantity Value="10"/>
+      </Item>
+      <Spawn Id="PortableScrubberPackage"/>
+      <Spawn Id="ResidentialSuppliesPackage"/>
+      <Spawn Id="MiningSuppliesPackage"/>
+    </DynamicThing>
+  </Spawn>
+
+  <Spawn Id="AdvancedAirlockSuppliesCeres">
+    <DynamicThing Id="CrateMkII">
+      <Name Value="Advanced Airlock Supplies"/>
+      <Color Id="Khaki"/>
+      <Item Id="ItemActiveVent">
+        <Quantity Value="2"/>
+      </Item>
+      <Item Id="ItemKitConsole">
+        <Quantity Value="1"/>
+      </Item>
+      <Item Id="ItemKitDoor">
+        <Quantity Value="2"/>
+      </Item>
+      <Item Id="CircuitboardAdvAirlockControl"/>
+      <Item Id="ItemPassiveVent">
+        <Quantity Value="2"/>
+      </Item>
+      <Item Id="ItemKitPipe">
+        <Quantity Value="20"/>
+      </Item>
+      <Item Id="ItemKitSensor"/>
+      <Item Id="ItemDataDisk"/>
+      <Item Id="ItemLabeller">
+        <Item Id="ItemBatteryCell">
+          <Charge State="Full"/>
+        </Item>
+      </Item>
+      <Item Id="ItemAdhesiveInsulation">
+        <Quantity Value="20"/>
+      </Item>
+    </DynamicThing>
+  </Spawn>
+
+  <Spawn Id="TradingSuppliesCeres">
+    <DynamicThing Id="CrateMkII">
+      <Name Value="Trading Supplies"/>
+      <Color Id="Gray"/>
+      <Item Id="ItemKitLandingPadBasic">
+        <Quantity Value="10"/>
+      </Item>
+      <Item Id="ItemKitComputer"/>
+      <Item Id="MotherboardComms"/>
+      <Item Id="ItemKitSmallSatelliteDish"/>
+      <Item Id="ItemKitVendingMachine"/>
+      <Item Id="ItemSteelSheets">
+        <Quantity Value="50"/>
+      </Item>
+      <Item Id="ItemSteelFrames">
+        <Quantity Value="30"/>
+      </Item>
+      <Item Id="ItemCreditCard">
+        <Quantity Value="600"/>
+      </Item>
+    </DynamicThing>
+  </Spawn>
+
+  <!--                  -->
+  <!-- Spawn Conditions -->
+  <!--                  -->
+
+  <StartCondition Id="CeresDefault">
+    <Name Key="DefaultStartConditionCeres"/>
+    <Description Key="DefaultStartConditionDescription"/>
+    <PreviewButton Path="Interface/button_starting_standard.png" />
+
+    <!-- Game Conditions -->
+    <Spawn Id="LanderCapsuleSmall" Event="NewPlayer" />
+
+    <!-- Ceres Conditions -->
+    <Spawn Id="CeresSpawn" Event="NewWorld" />
+    <Spawn Id="CeresNewPlayer" Event="NewPlayerKit" />
+    <Spawn Id="CeresRespawnPlayer" Event="RespawnPlayerKit" />
+  </StartCondition>
+
+  <Spawn Id="CeresSpawn">
+    <Spawn Id="OxygenTankInsulated" />
+    <Spawn Id="FuelTankInsulated" />
+
+    <Spawn Id="ConstructionSuppliesCeres"/>
+    <Spawn Id="ElectricalSuppliesCeres"/>
+    <Spawn Id="AdvancedAirlockSuppliesCeres"/>
+    <Spawn Id="StirlingEngineSupplies"/>
+    <Spawn Id="SurvivalSuppliesCeres"/>
+    <Spawn Id="HydroponicsSuppliesCeres"/>
+    <Spawn Id="TradingSuppliesCeres"/>
+  </Spawn>
+
+  <Spawn Id="CeresNewPlayer">
+    <Spawn Id="CeresHuman">
+      <Species Id="Human"/>
+    </Spawn>
+
+    <Spawn Id="CeresRobot">
+      <Species Id="Robot"/>
+    </Spawn>
+
+    <Spawn Id="CeresZrilian">
+      <Species Id="Zrilian"/>
+    </Spawn>
+  </Spawn>
+
+  <!--                              -->
+  <!-- Emergency Respawn Conditions -->
+  <!--                              -->
+
+  <Spawn Id="CeresRespawnPlayer">
+    <!-- Easy and Creative Respawn -->
+    <Spawn Id="CeresHuman">
+      <Species Id="Human"/>
+      <Difficulty Id="Easy" Compare="EqualOrLess"/>
+    </Spawn>
+
+    <Spawn Id="CeresRobot">
+      <Species Id="Robot"/>
+      <Difficulty Id="Easy" Compare="EqualOrLess"/>
+    </Spawn>
+
+    <Spawn Id="CeresZrilian">
+      <Species Id="Zrilian"/>
+      <Difficulty Id="Easy" Compare="EqualOrLess"/>
+    </Spawn>
+
+    <!-- Normal Respawn -->
+    <Spawn Id="CeresRespawnHuman">
+      <Species Id="Human"/>
+      <Difficulty Id="Normal" Compare="Equal"/>
+    </Spawn>
+
+    <Spawn Id="CeresRespawnZrilian">
+      <Species Id="Zrilian"/>
+      <Difficulty Id="Normal" Compare="Equal"/>
+    </Spawn>
+
+    <Item Id="ItemBatteryCellLarge" SlotId="Battery">
+      <Charge State="Full"/>
+      <Species Id="Robot"/>
+      <Difficulty Id="Normal" Compare="EqualOrLess"/>
+    </Item>
+
+    <!-- Stationeer Respawn -->
+    <!--      No Suit       -->
+    <Item Id="ItemBatteryCell" SlotId="Battery">
+      <Charge State="Full"/>
+      <Species Id="Robot"/>
+      <Difficulty Id="Stationeer" Compare="Equal"/>
+    </Item>
+  </Spawn>
+
+  <!--                                                  -->
+  <!-- Emergency Suit, Jetpack, and Toolbelt Conditions -->
+  <!--                                                  -->
+
+  <Spawn Id="CeresRespawnHuman">
+    <Item Id="ItemEmergencySpaceHelmet" SlotId="Helmet"/>
+    <Item Id="ItemEmergencyEvaSuit" SlotId="Suit">
+      <Item Id="ItemBatteryCellLarge" SlotId="LifeSupport">
+        <Charge State="Full"/>
+      </Item>
+      <Item Id="ItemGasCanisterEmpty" SlotId="AirTank">
+        <Name Value="Canister (Oxygen)"/>
+        <Color Id="White"/>
+        <Gas Type="Oxygen" Moles="150" Celsius="20"/>
+      </Item>
+      <Item Id="ItemGasCanisterEmpty" SlotId="WasteTank">
+        <Name Value="Canister (Waste)"/>
+        <Color Id="Brown"/>
+      </Item>
+      <Item Id="ItemGasFilterCarbonDioxideL" SlotId="Filter"/>
+    </Item>
+    <Spawn Id="EmergencyToolbelt"/>
+  </Spawn>
+
+  <Spawn Id="CeresRespawnZrilian">
+    <Item Id="ItemEmergencySpaceHelmet" SlotId="Helmet"/>
+    <Item Id="ItemEmergencyEvaSuit" SlotId="Suit">
+      <Item Id="ItemBatteryCellLarge" SlotId="LifeSupport">
+        <Charge State="Full"/>
+      </Item>
+      <Item Id="ItemGasCanisterEmpty" SlotId="AirTank">
+        <Name Value="Canister (Volatiles)"/>
+        <Color Id="White"/>
+        <Gas Type="Volatiles" Moles="150" Celsius="20"/>
+      </Item>
+      <Item Id="ItemGasCanisterEmpty" SlotId="WasteTank">
+        <Name Value="Canister (Waste)"/>
+        <Color Id="Brown"/>
+      </Item>
+      <Item Id="ItemGasFilterNitrousOxideL" SlotId="Filter"/>
+    </Item>
+    <Spawn Id="EmergencyToolbelt"/>
+  </Spawn>
+
+  <!--                                        -->
+  <!-- Suit, Jetpack, and Toolbelt Conditions -->
+  <!--                                        -->
+
+  <Spawn Id="CeresToolbelt">
+    <Item Id="ItemToolBelt" SlotId="Belt">
+      <Item Id="ItemWeldingTorch" SlotId="Tool">
+        <Item Id="ItemGasCanisterEmpty" SlotId="GasCanister">
+          <Name Value="Canister (Fuel)"/>
+          <Color Id="Orange"/>
+          <Gas Type="Oxygen" Moles="50" Celsius="20"/>
+          <Gas Type="Volatiles" Moles="100" Celsius="20"/>
+        </Item>
+      </Item>
+      <Item Id="ItemDrill" SlotId="Tool">
+        <Item Id="ItemBatteryCell" SlotId="Battery">
+          <Charge State="Full"/>
+        </Item>
+      </Item>
+      <Item Id="ItemAngleGrinder" SlotId="Tool">
+        <Item Id="ItemBatteryCell" SlotId="Battery">
+          <Charge State="Full"/>
+        </Item>
+      </Item>
+      <Item Id="ItemCableCoil" SlotId="Tool">
+        <Quantity Value="50"/>
+      </Item>
+      <Item Id="ItemWrench" SlotId="Tool"/>
+      <Item Id="ItemCrowbar" SlotId="Tool"/>
+      <Item Id="ItemWireCutters" SlotId="Tool"/>
+      <Item Id="ItemScrewdriver" SlotId="Tool"/>
+    </Item>
+  </Spawn>
+
+  <Spawn Id="CeresJetpack">
+    <Item Id="ItemJetpackBasic" SlotId="Back">
+      <Item Id="ItemGasCanisterEmpty" SlotId="Propellent">
+        <Name Value="Canister (Propellant)"/>
+        <Color Id="Green"/>
+        <Gas Type="Nitrogen" Moles="150" Celsius="20"/>
+      </Item>
+      <Item Id="ItemPillHeal">
+        <Quantity Value="3"/>
+      </Item>
+      <Item Id="ItemAdvancedTablet">
+        <Item Id="ItemBatteryCell" SlotId="Battery">
+          <Charge State="Full"/>
+        </Item>
+        <Item Id="CartridgeAtmosAnalyser" SlotIndex="1"/>
+        <Item Id="CartridgeNetworkAnalyser" SlotIndex="2"/>
+      </Item>
+      <Item Id="CartridgeTracker"/>
+      <Item Id="ItemMiningBelt">
+        <Item Id="ItemMiningDrill" SlotId="Tool">
+          <Item Id="ItemBatteryCell" SlotId="Battery">
+            <Charge State="Full"/>
+          </Item>
+        </Item>
+        <Item Id="ItemPickaxe" SlotId="Tool"/>
+      </Item>
+    </Item>
+  </Spawn>
+
+  <Spawn Id="CeresJumpsuit">
+    <Item Id="UniformOrangeJumpSuit" SlotId="Uniform">
+      <Item Id="ItemTomatoSoup"/>
+      <Item Id="ItemWaterBottle">
+        <Percent Value="100"/>
+      </Item>
+      <Item Id="ItemCreditCard" SlotId="CreditCard">
+        <Quantity Value="200"/>
+      </Item>
+    </Item>
+  </Spawn>
+
+  <Spawn Id="CeresRobot">
+    <Item Id="ItemBatteryCellNuclear" SlotId="Battery">
+      <Charge State="Full"/>
+    </Item>
+    <Spawn Id="CeresJetpack"/>
+    <Spawn Id="CeresToolbelt"/>
+  </Spawn>
+
+  <Spawn Id="CeresHuman">
+    <Item Id="ItemDuctTape" SlotIndex="1"/>
+    <Item Id="ItemSpaceHelmet" SlotId="Helmet"/>
+    <Item Id="ItemEvaSuit" SlotId="Suit">
+      <Item Id="ItemBatteryCellNuclear" SlotId="LifeSupport">
+        <Charge State="Full"/>
+      </Item>
+      <Item Id="ItemGasCanisterEmpty" SlotId="AirTank">
+        <Name Value="Canister (Oxygen)"/>
+        <Color Id="White"/>
+        <Gas Type="Oxygen" Moles="150" Celsius="20"/>
+      </Item>
+      <Item Id="ItemGasCanisterEmpty" SlotId="WasteTank">
+        <Name Value="Canister (Waste)"/>
+        <Color Id="Brown"/>
+      </Item>
+      <Item Id="ItemGasFilterCarbonDioxideL" SlotId="Filter"/>
+      <Item Id="ItemGasFilterPollutants" SlotId="Filter"/>
+      <Item Id="ItemGasFilterVolatiles" SlotId="Filter"/>
+    </Item>
+    <Spawn Id="CeresJetpack"/>
+    <Spawn Id="CeresJumpsuit"/>
+    <Spawn Id="CeresToolbelt"/>
+  </Spawn>
+
+  <Spawn Id="CeresZrilian">
+    <Item Id="ItemDuctTape" SlotIndex="1"/>
+    <Item Id="ItemSpaceHelmet" SlotId="Helmet"/>
+    <Item Id="ItemEvaSuit" SlotId="Suit">
+      <Item Id="ItemBatteryCellNuclear" SlotId="LifeSupport">
+        <Charge State="Full"/>
+      </Item>
+      <Item Id="ItemGasCanisterEmpty" SlotId="AirTank">
+        <Name Value="Canister (Volatiles)"/>
+        <Color Id="Red"/>
+        <Gas Type="Volatiles" Moles="150" Celsius="20"/>
+      </Item>
+      <Item Id="ItemGasCanisterEmpty" SlotId="WasteTank">
+        <Name Value="Canister (Waste)"/>
+        <Color Id="Green"/>
+      </Item>
+      <Item Id="ItemGasFilterNitrousOxideM" SlotId="Filter"/>
+      <Item Id="ItemGasFilterNitrousOxideM" SlotId="Filter"/>
+      <Item Id="ItemGasFilterPollutants" SlotId="Filter"/>
+    </Item>
+    <Spawn Id="CeresJetpack"/>
+    <Spawn Id="CeresJumpsuit"/>
+    <Spawn Id="CeresToolbelt"/>
+  </Spawn>
+</GameData>
