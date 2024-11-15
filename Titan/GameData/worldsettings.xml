@@ -22,33 +22,35 @@
             <!-- the pressure of volatiles in the atmosphere is ~2.418023 kPa -->
             <!-- those added equates to ~146.642423, which is about the atmospheric pressure in-game -->
 
-            <!-- This can also be useful if you have a pressure you want, but you dont know how many moles you need -->
+            <!-- This can also be useful if you have a pressure you want, but you dont know how many
+            moles you need -->
             <!-- you can input your pressure and it will give you a pretty accurate value! -->
 
             <!--            -->
             <!-- Start Menu -->
             <!--            -->
+
             <Name Key="NewWorldAreaTitan" />
             <Description Key="NewWorldDescriptionTitan" />
             <Rating Value="Hard" Color="Purple" />
-            <PreviewButton Path="Titan/Textures/preview_titan.png" Format="RGB24"/>
+            <PreviewButton Path="Titan/Textures/preview_titan.png" Format="RGB24" />
 
             <!--                  -->
             <!-- Start Conditions -->
             <!--                  -->
 
-            <StartCondition Id="TitanDefault" IsDefault="true"/>
-            <StartCondition Id="EuropaBrutal"/>
+            <StartCondition Id="TitanDefault" IsDefault="true" />
+            <StartCondition Id="TitanBrutal" />
 
             <!--              -->
             <!-- Helper Hints -->
             <!--              -->
 
-            <WorldObjective Id="ManufacturingBasics"/>
-            <WorldObjective Id="Stations"/>
-            <WorldObjective Id="Trading"/>
-            <WorldObjective Id="Concepts"/>
-            <WorldObjective Id="Tips"/>
+            <WorldObjective Id="ManufacturingBasics" />
+            <WorldObjective Id="Stations" />
+            <WorldObjective Id="Trading" />
+            <WorldObjective Id="Concepts" />
+            <WorldObjective Id="Tips" />
 
             <!--                -->
             <!-- Visual Changes -->
@@ -66,246 +68,22 @@
             <WorldOreDensity>0.002</WorldOreDensity>
             <BedrockLevel>-40</BedrockLevel>
 
-            <!--                          -->
-            <!-- Atmosphere Configuration -->
-            <!--                          -->
-
-            <AtmosphereComposition>
-                <SpawnGas>
-                    <Type>Nitrogen</Type>
-                    <Quantity>1481</Quantity>
-                    <Name>Nitrogen</Name>
-                </SpawnGas>
-                <SpawnGas>
-                    <Type>Volatiles</Type>
-                    <Quantity>24.83</Quantity>
-                </SpawnGas>
-            </AtmosphereComposition>
-
-            <Kelvin>
-                <preWrapMode>ClampForever</preWrapMode>
-                <postWrapMode>ClampForever</postWrapMode>
-
-                <keys>
-                    <Keyframe>
-                        <time>0</time>
-                        <!-- -179.45 C -->
-                        <value>93.7</value>
-                        <inTangent>0</inTangent>
-                        <outTangent>0</outTangent>
-                        <inWeight>0.33333333334</inWeight>
-                        <outWeight>0.33333333334</outWeight>
-                        <weightedMode>None</weightedMode>
-                    </Keyframe>
-                    <Keyframe>
-                        <time>1</time>
-                        <!-- -179.45 C -->
-                        <value>93.7</value>
-                        <inTangent>0</inTangent>
-                        <outTangent>0</outTangent>
-                        <inWeight>0.33333333334</inWeight>
-                        <outWeight>0.33333333334</outWeight>
-                        <weightedMode>None</weightedMode>
-                    </Keyframe>
-                </keys>
-            </Kelvin>
-
-            <!--                -->
-            <!-- Storm Settings -->
-            <!--                -->
-
-            <WeatherEvent Id="WeatherVenusStorm">
-                <WeatherMinimumStartTime>120</WeatherMinimumStartTime>
-                <WeatherMaximumStartTime>500</WeatherMaximumStartTime>
-                <WeatherMinimumDuration>300</WeatherMinimumDuration>
-                <WeatherMaximumDuration>700</WeatherMaximumDuration>
-                <WeatherMinimumCooldownDuration>6</WeatherMinimumCooldownDuration>
-                <WeatherMaximumCooldownDuration>8</WeatherMaximumCooldownDuration>
-                <WeatherWorldStartCooldownDuration>7</WeatherWorldStartCooldownDuration>
-
-                <FogColor>
-                    <!-- R: 236 -->
-                    <r>0.92549019607843137254901960784314</r>
-                    <!-- G: 222 -->
-                    <g>0.61960784313725490196078431372549</g>
-                    <!-- B: 134 -->
-                    <b>0.51372549019607843137254901960784</b>
-                    <a>0.765</a>
-                </FogColor>
-
-                <WeatherKelvin>
-                    <preWrapMode>ClampForever</preWrapMode>
-                    <postWrapMode>ClampForever</postWrapMode>
-                    <keys>
-                        <Keyframe>
-                            <time>0</time>
-                            <!-- -152.15 C -->
-                            <value>121</value>
-                            <inTangent>0</inTangent>
-                            <outTangent>0</outTangent>
-                            <inWeight>0.333333343</inWeight>
-                            <outWeight>0.333333343</outWeight>
-                            <weightedMode>None</weightedMode>
-                        </Keyframe>
-
-                        <Keyframe>
-                            <time>1</time>
-                            <!-- -152.15 C -->
-                            <value>121</value>
-                            <inTangent>0</inTangent>
-                            <outTangent>0</outTangent>
-                            <inWeight>0.333333343</inWeight>
-                            <outWeight>0.333333343</outWeight>
-                            <weightedMode>None</weightedMode>
-                        </Keyframe>
-                    </keys>
-                </WeatherKelvin>
-            </WeatherEvent>
-
-            <!--                   -->
-            <!-- Skybox & Spacemap -->
-            <!--                   -->
-
-            <PlayableBody Id="Titan" Latitude="-34.4" Longitude="100" />
-            <SpaceMap Id="EuropaSpaceMap"/>
-
-            <CelestialConstants TimeScale="0.007839" BodyScale="1">
-                <TimeOffset Days="0" Hours="0" Minutes="0" Seconds="400" />
-            </CelestialConstants>
-
-            <CelestialBodies>
-                <Body Id="Titan" Parent="Saturn" RadiusKm="1574.7">
-                    <TidalLocking x="0.4539904997" y="0.8910065242" z="0" />
-                </Body>
-
-                <RockyBody Id="Mimas" Parent="Saturn" RadiusKm="698.2" />
-
-                <AtmosphericBody Id="Saturn" RadiusKm="98232">
-                    <Axis x="0.466" y="0.884" z="0" Speed="0" />
-                    <TidalLocking x="0.466" y="0.884" z="0" />
-                    <Texture Path="Textures/saturn_diffuse.png" />
-                    <Cloud Path="Textures/atmosphere_mask.png" Opacity="1" Speed="25">
-                        <Tiling x="50" y="10" />
-                        <Distortion Value="0.072" />
-                        <Shadow Opacity="0.347" Parallax="0.119" />
-                    </Cloud>
-                    <Fresnel r="1" g="0.9274343" b="0.7893081" Power="1.5" />
-                    <Ring />
-                </AtmosphericBody>
-
-                <Sprite Id="Uranus" Magnitude="1.80" />
-                <Sprite Id="Neptune" Magnitude="1.90" />
-                <Sprite Id="Pluto" Magnitude="2.00" />
-                <Sprite Id="Mercury" Magnitude="1.90" />
-                <Sprite Id="Venus" Magnitude="1.20" />
-                <Sprite Id="Earth" Magnitude="1.10" />
-                <Sprite Id="Mars" Magnitude="1.50" />
-                <Sprite Id="Jupiter" Magnitude="0.80" />
-            </CelestialBodies>
-
-            <!--                          -->
-            <!-- Start Menu Preview Scene -->
-            <!--                          -->
-
-            <PreviewScene fov="22">
-                <SkyBoxMaterial>SceneSkyMars</SkyBoxMaterial>
-                <SunPrefab>SpaceSun (UnityEngine.Light)</SunPrefab>
-                <LensFlare>true</LensFlare>
-                <LensFlareIntensity>0.250</LensFlareIntensity>
-
-                <CameraPosition>
-                    <x>-9</x>
-                    <y>-67</y>
-                    <z>77</z>
-                </CameraPosition>
-                <CameraRotation>
-                    <x>-32.85</x>
-                    <y>-179.58</y>
-                    <z>-1.177</z>
-                </CameraRotation>
-                <SunRotation>
-                    <x>-11.223</x>
-                    <y>280.744</y>
-                    <z>-213.042</z>
-                </SunRotation>
-
-                <Prefabs>
-                    <Prefab>
-                        <Name>UISaturn</Name>
-                        <Position>
-                            <x>-108.4227</x>
-                            <y>231.3017</y>
-                            <z>-315.6085</z>
-                        </Position>
-                        <Rotation>
-                            <x>51.714</x>
-                            <y>416.574</y>
-                            <z>379.833</z>
-                        </Rotation>
-                        <Scale>
-                            <x>101.20480</x>
-                            <y>101.20480</y>
-                            <z>101.20480</z>
-                        </Scale>
-                    </Prefab>
-
-                    <Prefab>
-                        <Name>UIVenus</Name>
-                        <Position>
-                            <x>-34.02271</x>
-                            <y>77.00171</y>
-                            <z>-171.8368</z>
-                        </Position>
-                        <Rotation>
-                            <x>-50.253</x>
-                            <y>332.302</y>
-                            <z>-20.899</z>
-                        </Rotation>
-                        <Scale>
-                            <x>157.406</x>
-                            <y>157.406</y>
-                            <z>157.406</z>
-                        </Scale>
-                    </Prefab>
-                </Prefabs>
-            </PreviewScene>
-
-            <!--                               -->
-            <!-- Terrain LOD (Level of Detail) -->
-            <!--                               -->
-
-            <NoTerrainLod>true</NoTerrainLod>
-            <TerrainLodColor>
-                <r>0</r>
-                <g>0</g>
-                <b>0</b>
-                <a>1.0</a>
-            </TerrainLodColor>
-
-            <!--                                                                                -->
-            <!-- Terrain Color (this doesnt seem to change the color, rather the drilled color) -->
-            <!--                                                                                -->
-
-            <HasCustomTerrainColor>false</HasCustomTerrainColor>
-            <CustomTerrainColor>
-                <r>0</r>
-                <g>0</g>
-                <b>0</b>
-                <a>1.0</a>
-            </CustomTerrainColor>
-
             <AmbientLighting>
                 <!-- R: 236 G: 222 B: 134-->
-                <Sky r="0.92549019607843137254901960784314" g="0.87058823529411764705882352941176" b="0.52549019607843137254901960784314" />
+                <Sky r="0.92549019607843137254901960784314" g="0.87058823529411764705882352941176"
+                    b="0.52549019607843137254901960784314" />
                 <!-- R: 194 G: 158 B: 84 -->
-                <Equator r="0.76078431372549019607843137254902" g="0.61960784313725490196078431372549" b="0.32941176470588235294117647058824" />
+                <Equator r="0.76078431372549019607843137254902"
+                    g="0.61960784313725490196078431372549" b="0.32941176470588235294117647058824" />
                 <!-- R: 246 G: 221 B: 131-->
-                <Ground r="0.96470588235294117647058823529412" g="0.86666666666666666666666666666667" b="0.51372549019607843137254901960784" />
+                <Ground r="0.96470588235294117647058823529412"
+                    g="0.86666666666666666666666666666667" b="0.51372549019607843137254901960784" />
             </AmbientLighting>
 
             <!--                        -->
             <!-- Atmospheric Scattering -->
             <!--                        -->
+
             <AtmosphericScattering>true</AtmosphericScattering>
             <AtmosphericScatteringData>
                 <!-- Rayleigh Settings -->
@@ -429,20 +207,261 @@
                     </GradientAlphaKey>
                 </MieColorRampAlphaKey>
 
-                <!-- Unsure what these do but they arent default -->
-                <WorldNearScatterPush>1.1</WorldNearScatterPush>
-                <WorldNormalDistance>0</WorldNormalDistance>
-                <HeightExtinctionFactor>0</HeightExtinctionFactor>
-                <HeightSeaLevel>100</HeightSeaLevel>
-                <HeightDistance>1000</HeightDistance>
-                <HeightNearScatterPush>1.46</HeightNearScatterPush>
-                <HeightNormalDistance>0</HeightNormalDistance>
-                <UseOcclusion>false</UseOcclusion>
+                <!-- Credits to 𝓐pothicon (apothic0n) on the stationeers discord! -->
+
+                <WorldScaleExponent>1</WorldScaleExponent>
+
+                <ForcePerPixel>false</ForcePerPixel>
+                <ForcePostEffect>true</ForcePostEffect>
+                <HeightNearScatterPush>10.8</HeightNearScatterPush>
+                <HeightNormalDistance>1000</HeightNormalDistance>
+
+                <UseOcclusion>true</UseOcclusion>
+                <OcclusionFullSky>true</OcclusionFullSky>
+                <OcclusionBias>0</OcclusionBias>
+                <OcclusionBiasIndirect>0.8</OcclusionBiasIndirect>
+                <OcclusionBiasClouds>0.1</OcclusionBiasClouds>
+                <OcclusionBiasSkyRayleigh>0</OcclusionBiasSkyRayleigh>
+                <OcclusionBiasSkyMie>0</OcclusionBiasSkyMie>
+
+                <OcclusionDownscale>x2</OcclusionDownscale>
+                <OcclusionSamples>x64</OcclusionSamples>
+                <OcclusionDepthFixup>true</OcclusionDepthFixup>
+                <OcclusionDepthThreshold>25</OcclusionDepthThreshold>
             </AtmosphericScatteringData>
+
+
+            <!--                          -->
+            <!-- Atmosphere Configuration -->
+            <!--                          -->
+
+            <GlobalAtmosphere>
+                <Temperature>
+                    <Key Time="0" Value="93.7" InTangent="0" OutTangent="0" InWeight="0.333333343"
+                        OutWeight="0.333333343" WeightedMode="None" />
+                    <Key Time="180" Value="93.7" InTangent="0" OutTangent="0" InWeight="0.333333343"
+                        OutWeight="0.333333343" WeightedMode="None" />
+                </Temperature>
+
+                <Gas>
+                    <Gas Type="Nitrogen" Quantity="1493.415" />
+                    <Gas Type="Volatiles" Quantity="12.415" />
+                </Gas>
+            </GlobalAtmosphere>
+
+            <!--                -->
+            <!-- Storm Settings -->
+            <!--                -->
+
+            <WeatherEvent Id="AcidRain" FirstStormDelay="7" />
+
+            <!--                   -->
+            <!-- Skybox & Spacemap -->
+            <!--                   -->
+
+            <PlayableBody Id="Titan" Latitude="-34.4" Longitude="100" />
+            <SpaceMap Id="EuropaSpaceMap" />
+
+            <CelestialConstants TimeScale="0.007839" BodyScale="1">
+                <TimeOffset Days="0" Hours="0" Minutes="0" Seconds="400" />
+            </CelestialConstants>
+
+            <CelestialBodies>
+                <Body Id="Titan" Parent="Saturn" RadiusKm="1574.7">
+                    <TidalLocking x="0.4539904997" y="0.8910065242" z="0" />
+                </Body>
+
+                <RockyBody Id="Mimas" Parent="Saturn" RadiusKm="698.2" />
+
+                <AtmosphericBody Id="Saturn" RadiusKm="98232">
+                    <Axis x="0.466" y="0.884" z="0" Speed="0" />
+                    <TidalLocking x="0.466" y="0.884" z="0" />
+                    <Texture Path="Textures/saturn_diffuse.png" />
+                    <Cloud Path="Textures/atmosphere_mask.png" Opacity="1" Speed="25">
+                        <Tiling x="50" y="10" />
+                        <Distortion Value="0.072" />
+                        <Shadow Opacity="0.347" Parallax="0.119" />
+                    </Cloud>
+                    <Fresnel r="1" g="0.9274343" b="0.7893081" Power="1.5" />
+                    <Ring />
+                </AtmosphericBody>
+
+                <Sprite Id="Uranus" Magnitude="1.80" />
+                <Sprite Id="Neptune" Magnitude="1.90" />
+                <Sprite Id="Pluto" Magnitude="2.00" />
+                <Sprite Id="Mercury" Magnitude="1.90" />
+                <Sprite Id="Venus" Magnitude="1.20" />
+                <Sprite Id="Earth" Magnitude="1.10" />
+                <Sprite Id="Mars" Magnitude="1.50" />
+                <Sprite Id="Jupiter" Magnitude="0.80" />
+            </CelestialBodies>
+
+            <!--                          -->
+            <!-- Start Menu Preview Scene -->
+            <!--                          -->
+
+            <PreviewScene fov="60">
+                <SkyBoxMaterial>SceneSkyMars</SkyBoxMaterial>
+                <SunPrefab>SpaceSun (UnityEngine.Light)</SunPrefab>
+                <LensFlare>true</LensFlare>
+                <LensFlareIntensity>0.250</LensFlareIntensity>
+
+                <CameraPosition>
+                    <x>0.000</x>
+                    <y>0.000</y>
+                    <z>0.000</z>
+                </CameraPosition>
+                <CameraRotation>
+                    <x>325.015</x>
+                    <y>52.851</y>
+                    <z>157.944</z>
+                </CameraRotation>
+                <SunRotation>
+                    <x>21.562</x>
+                    <y>280.290</y>
+                    <z>180.000</z>
+                </SunRotation>
+                <Prefabs>
+                    <Prefab>
+                        <Name>SpaceAsteroid</Name>
+                        <Position>
+                            <x>293.277</x>
+                            <y>546.302</y>
+                            <z>532.942</z>
+                        </Position>
+                        <Rotation>
+                            <x>356.694</x>
+                            <y>288.441</y>
+                            <z>110.125</z>
+                        </Rotation>
+                        <Scale>
+                            <x>97.047</x>
+                            <y>97.047</y>
+                            <z>97.047</z>
+                        </Scale>
+                    </Prefab>
+                    <Prefab>
+                        <Name>SpaceAsteroid</Name>
+                        <Position>
+                            <x>606.277</x>
+                            <y>637.582</y>
+                            <z>905.752</z>
+                        </Position>
+                        <Rotation>
+                            <x>326.120</x>
+                            <y>249.898</y>
+                            <z>202.095</z>
+                        </Rotation>
+                        <Scale>
+                            <x>31.374</x>
+                            <y>31.374</y>
+                            <z>31.374</z>
+                        </Scale>
+                    </Prefab>
+                    <Prefab>
+                        <Name>SpaceAsteroid</Name>
+                        <Position>
+                            <x>695.277</x>
+                            <y>542.302</y>
+                            <z>358.792</z>
+                        </Position>
+                        <Rotation>
+                            <x>343.294</x>
+                            <y>305.512</y>
+                            <z>100.749</z>
+                        </Rotation>
+                        <Scale>
+                            <x>72.804</x>
+                            <y>72.804</y>
+                            <z>72.804</z>
+                        </Scale>
+                    </Prefab>
+                    <Prefab>
+                        <Name>UISun</Name>
+                        <Position>
+                            <x>864.277</x>
+                            <y>787.302</y>
+                            <z>555.792</z>
+                        </Position>
+                        <Rotation>
+                            <x>309.969</x>
+                            <y>287.920</y>
+                            <z>309.086</z>
+                        </Rotation>
+                        <Scale>
+                            <x>20</x>
+                            <y>20</y>
+                            <z>20</z>
+                        </Scale>
+                    </Prefab>
+                    <Prefab>
+                        <Name>UISaturnTiny</Name>
+                        <Position>
+                            <x>465.677</x>
+                            <y>420.302</y>
+                            <z>809.092</z>
+                        </Position>
+                        <Rotation>
+                            <x>21.845</x>
+                            <y>-80.243</y>
+                            <z>3.907</z>
+                        </Rotation>
+                        <Scale>
+                            <x>15.533</x>
+                            <y>15.533</y>
+                            <z>15.533</z>
+                        </Scale>
+                    </Prefab>
+                    <Prefab>
+                        <Name>UIVenus</Name>
+                        <Position>
+                            <x>510.257</x>
+                            <y>420.262</y>
+                            <z>808.932</z>
+                        </Position>
+                        <Rotation>
+                            <x>21.845</x>
+                            <y>279.757</y>
+                            <z>3.907</z>
+                        </Rotation>
+                        <Scale>
+                            <x>2.358</x>
+                            <y>2.358</y>
+                            <z>2.358</z>
+                        </Scale>
+                    </Prefab>
+                    <Prefab>
+                        <Name>AmbientSpaceLight</Name>
+                        <Position>
+                            <x>187.077</x>
+                            <y>526.162</y>
+                            <z>139.092</z>
+                        </Position>
+                        <Rotation>
+                            <x>356.694</x>
+                            <y>288.441</y>
+                            <z>110.125</z>
+                        </Rotation>
+                        <Scale>
+                            <x>97.047</x>
+                            <y>97.047</y>
+                            <z>97.047</z>
+                        </Scale>
+                    </Prefab>
+                </Prefabs>
+            </PreviewScene>
+
+            <!--                               -->
+            <!-- Terrain LOD (Level of Detail) -->
+            <!--                               -->
+
+            <NoTerrainLod>true</NoTerrainLod>
+
 
             <!--                 -->
             <!-- Terrain Clutter -->
             <!--                 -->
+
             <Clutter>
                 <ClutterXmlData>
                     <PrefabName>RockVenus</PrefabName>
@@ -457,6 +476,7 @@
             <!--         -->
             <!-- Terrain -->
             <!--         -->
+
             <TerrainGenerationFeatures>
                 <Feature>Custom</Feature>
             </TerrainGenerationFeatures>
@@ -509,6 +529,7 @@
             <!--           -->
             <!-- Mineables -->
             <!--           -->
+
             <MineablesOverride>
                 <!-- Disabled Mineables: Coal, Uranium, Oxite, Volatile Ice, Nitrice -->
                 <MineableData>
@@ -582,7 +603,8 @@
                     <MinVeinAttempts>0</MinVeinAttempts>
                 </MineableData>
 
-                <!-- Enabled Mineables: Water Ice, Iron, Copper, Gold, Sillicon, Nickel, Silver, Lead, Cobalt -->
+                <!-- Enabled Mineables: Water Ice, Iron, Copper, Gold, Sillicon, Nickel, Silver,
+                Lead, Cobalt -->
                 <MineableData>
                     <DisplayName>Ice</DisplayName>
                     <OrePrefabName>ItemIce</OrePrefabName>
@@ -720,7 +742,8 @@
             </MineablesOverride>
 
             <DeepMineablesOverride>
-                <!-- Enabled Deep Mineables: Iron, Coal, Copper, Gold, Sillicon, Nickel, Silver, Lead, Cobalt -->
+                <!-- Enabled Deep Mineables: Iron, Coal, Copper, Gold, Sillicon, Nickel, Silver,
+                Lead, Cobalt -->
                 <DeepMineableData>
                     <DisplayName>Coal</DisplayName>
                     <OrePrefabName>ItemCoalOre</OrePrefabName>
