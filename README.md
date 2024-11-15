@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# RocketMods
-=======
 # XML Mods
->>>>>>> 87eeacaaffac703b0128864ba2f39b186fe1f414
 > A collection of mods specifically for the game [Stationeers](https://store.steampowered.com/app/544550/Stationeers/)
 
 ## To download, click download source
