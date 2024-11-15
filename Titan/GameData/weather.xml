@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <WeatherEvent Id="AcidRain">
+        <Name Value="Acid Rain" />
+        <ParticleId Value="Rain" />
+
+        <CoolDown Min="6" Max="8" />
+        <StartDelay Min="120" Max="240" />
+        <Duration Min="500" Max="700" />
+
+        <SolarRatio Value="0.1" />
+        <WindStrength Value="3" />
+
+        <MovementSpeedMultiplier Value="0.8" />
+        <DamageMultiplier Value="0.25" />
+
+        <Fog StartDistance="15" EndDistance="180">
+            <!-- R: 236 G: 222 B: 134 -->
+            <Color r="0.92549019607843137254901960784314" g="0.61960784313725490196078431372549"
+                b="0.51372549019607843137254901960784" a="0.765" />
+        </Fog>
+
+        <TemperatureOffset>
+            <Day Value="27.3" />
+            <Night Value="27.3" />
+        </TemperatureOffset>
+
+        <Direction Value="Down" />
+
+        <Shell1Sound Value="WindShell1" />
+        <Shell1Sound Value="RainShell1" />
+        <Shell2Sound Value="RainShell2" />
+        <Shell3Sound Value="RainShell3" />
+        <Shell4Sound Value="RainShell4" />
+    </WeatherEvent>
+</GameData>
