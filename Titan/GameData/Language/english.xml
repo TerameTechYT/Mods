@@ -1,51 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>English</Name>
-  <Code>EN</Code>
-  <Font>font_english</Font>
-  <Interface>
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Name>English</Name>
+    <Code>EN</Code>
+    <Font>font_english</Font>
+    <Interface>
 
-    <!-- Start Menu -->
-    <Record>
-      <Key>Titan</Key>
-      <Value>Titan</Value>
-    </Record>
-    
-    <Record>
-      <Key>NewWorldAreaTitan</Key>
-      <Value>Titan</Value>
-    </Record>
+        <!-- Start Menu -->
+        <Record>
+            <Key>Titan</Key>
+            <Value>Titan</Value>
+        </Record>
 
-    <Record>
-      <Key>NewWorldDescriptionTitan</Key>
-      <Value>Titan is the largest moon of Saturn and the second-largest natural satellite in the Solar System. It is the only moon known to have a dense atmosphere, and is the only known object in space other than Earth on which clear evidence of stable bodies of surface liquid have been found. Do you have what it takes to survive, or will you perish in this frozen wasteland?</Value>
-    </Record>
+        <Record>
+            <Key>NewWorldAreaTitan</Key>
+            <Value>Titan</Value>
+        </Record>
 
-    <Record>
-      <Key>DefaultStartConditionTitan</Key>
-      <Value>Titan Default</Value>
-    </Record>
+        <Record>
+            <Key>NewWorldDescriptionTitan</Key>
+            <Value>Titan is the largest moon of Saturn and the second-largest natural satellite in the Solar System. It is the only moon known to have a dense atmosphere, and is the only known object in space other than Earth on which clear evidence of stable bodies of surface liquid have been found. Do you have what it takes to survive, or will you perish in this frozen wasteland?</Value>
+        </Record>
 
-    <!-- Objectives -->
-    <Record>
-      <Key>WorldObjectiveTitanLiquidNotice</Key>
-      <Value>Atmospheric Liquids</Value>
-    </Record>
+        <Record>
+            <Key>DefaultStartConditionTitan</Key>
+            <Value>Default (Titan)</Value>
+        </Record>
 
-    <Record>
-      <Key>WorldObjectiveTitanLiquidNoticeInfo</Key>
-      <Value>Whilst using an airlock, you may experience volatiles become stuck in your airlock while cycling, to avoid this, make sure it is a complete vacuum before opening the door into your habitat.</Value>
-    </Record>
+        <Record>
+            <Key>BrutalStartConditionTitan</Key>
+            <Value>Brutal (Titan)</Value>
+        </Record>
 
-    <Record>
-      <Key>WorldObjectiveThanksForPlayingNotice</Key>
-      <Value>Thanks for playing!</Value>
-    </Record>
+        <!-- Objectives -->
+        <Record>
+            <Key>WorldObjectiveTitanLiquidNotice</Key>
+            <Value>Atmospheric Liquids</Value>
+        </Record>
 
-    <Record>
-      <Key>WorldObjectiveThanksForPlayingNoticeInfo</Key>
-      <Value>It means so much to me that you have downloaded my mod! Thank you for playing!!</Value>
-    </Record>
-  </Interface>
+        <Record>
+            <Key>WorldObjectiveTitanLiquidNoticeInfo</Key>
+            <Value>Whilst using an airlock, you may experience volatiles become stuck in your airlock while cycling, to avoid this, make sure it is a complete vacuum before opening the door into your habitat.</Value>
+        </Record>
+
+        <Record>
+            <Key>WorldObjectiveThanksForPlayingNotice</Key>
+            <Value>Thanks for playing!</Value>
+        </Record>
+
+        <Record>
+            <Key>WorldObjectiveThanksForPlayingNoticeInfo</Key>
+            <Value>It means so much to me that you have downloaded my mod! Thank you for playing!!</Value>
+        </Record>
+    </Interface>
 </Language>
