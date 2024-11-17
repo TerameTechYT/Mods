@@ -1,0 +1,255 @@
+﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>English</Name>
+  <Code>EN</Code>
+  <Font>font_english</Font>
+  <ScreenSpaceToolTips>
+    <!-- Health Tooltips -->
+    <Record>
+      <Key>StatusIconHealthName</Key>
+      <Value>Current Health</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealthKey</Key>
+      <Value>Current Health</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationDesc</Key>
+      <Value>Health is running low.</Value>
+    </Record>
+
+    <!-- Stun Tooltips -->
+    <Record>
+      <Key>StatusIconStunName</Key>
+      <Value>Stun Percentage</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunKey</Key>
+      <Value>Stun Percentage</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunDesc</Key>
+      <Value>You are currently falling unconscious.</Value>
+    </Record>
+
+    <!-- Toxin Tooltips -->
+    <Record>
+      <Key>StatusIconToxinName</Key>
+      <Value>Current Toxin Level</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinKey</Key>
+      <Value>Current Toxin Level</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinDescription</Key>
+      <Value>The atmosphere you are breathing is polluted and is causing significant damage to your lungs.</Value>
+    </Record>
+
+    <!-- Oxygen Tooltips -->
+    <Record>
+      <Key>StatusIconOxygenName</Key>
+      <Value>Lung Damage</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenKey</Key>
+      <Value>Lung Damage</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenDesc</Key>
+      <Value>Your Lungs have been damaged, take a pill to recover faster.</Value>
+    </Record>
+
+
+    <!-- Air Tank Tooltips -->
+    <Record>
+      <Key>StatusIconAirTankName</Key>
+      <Value>Suit Air Tank Capacity</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAirTanKey</Key>
+      <Value>Suit Air Tank Capacity</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAirTanDesc</Key>
+      <Value>Suit Air Tank Capacity is almost empty.</Value>
+    </Record>
+
+    <!-- Waste Tank Tooltips -->
+    <Record>
+      <Key>StatusIconWasteName</Key>
+      <Value>Suit Waste Capacity</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconWasteKey</Key>
+      <Value>Suit Waste Capacity</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconWasteDesc</Key>
+      <Value>Suit Waste Capacity is almost full.</Value>
+    </Record>
+
+    <!-- Battery Power Tooltips -->
+    <Record>
+      <Key>StatusIconPowerName</Key>
+      <Value>Suit Power Supply</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPowerKey</Key>
+      <Value>Suit Power Supply</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPowerDesc</Key>
+      <Value>Suit Power Supply is running low.</Value>
+    </Record>
+
+
+    <!-- Filter Tooltips -->
+    <Record>
+      <Key>StatusIconFilterName</Key>
+      <Value>Suit Filter Capacity</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconFilterKey</Key>
+      <Value>Suit Filter Capacity</Value>
+    </Record>
+    <Record>
+      <Key>StatucIconFilterDesc</Key>
+      <Value>Suit Filter Capacity is running low.</Value>
+    </Record>
+
+    <!-- Temperature Tooltips -->
+    <Record>
+      <Key>StatusIconTemperatureName</Key>
+      <Value>Suit Internal Temperature</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTemperatureKey</Key>
+      <Value>Suit Internal Temperature</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTemperatureDesc</Key>
+      <Value>Suit Internal Temperature is high or low.</Value>
+    </Record>
+
+    <!-- Pressure Tooltips -->
+    <Record>
+      <Key>StatusIconPressureName</Key>
+      <Value>Suit Internal Pressure</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureKey</Key>
+      <Value>Suit Internal Pressure</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureDesc</Key>
+      <Value>Suit Internal Pressure is high or low.</Value>
+    </Record>
+    <!-- Leaking Tooltips -->
+    <Record>
+      <Key>StatusIconLeakingName</Key>
+      <Value>Suit Leaking</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLeakingKey</Key>
+      <Value>Suit Leaking</Value>
+    </Record>
+    <Record>
+      <Key>StatucIconLeakingDesc</Key>
+      <Value>Suit is Leaking atmosphere, repair using duct tape.</Value>
+    </Record>
+
+    <!-- Hydration Tooltips -->
+    <Record>
+      <Key>StatusIconHydrationName</Key>
+      <Value>Current Hydration</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationKey</Key>
+      <Value>Current Hydration</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationDesc</Key>
+      <Value>Hydration is running low.</Value>
+    </Record>
+
+    <!-- Hunger Tooltips -->
+    <Record>
+      <Key>StatusIconHungerName</Key>
+      <Value>Current Hunger</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHungerKey</Key>
+      <Value>Current Hunger</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHungerDesc</Key>
+      <Value>Hunger is running low.</Value>
+    </Record>
+
+    <!-- Gravity Tooltips -->
+    <Record>
+      <Key>StatusIconGravityName</Key>
+      <Value>Zero Gravity</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconGravityKey</Key>
+      <Value>Zero Gravity</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconGravityDesc</Key>
+      <Value>Zero Gravity</Value>
+    </Record>
+
+    <!-- Jetpack Tooltips -->
+    <Record>
+      <Key>StatusIconJetpackWarningName</Key>
+      <Value>Jetpack Propellant</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconJetpackWarningKey</Key>
+      <Value>Jetpack Propellant</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconJetpackWarningDesc</Key>
+      <Value>Jetpack Propellant is running low.</Value>
+    </Record>
+
+    <!-- Coolant Tooltips -->
+    <Record>
+      <Key>StatusIconCoolantName</Key>
+      <Value>Suit Coolant Temperature</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantKey</Key>
+      <Value>Suit Coolant Temperature</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantDesc</Key>
+      <Value>Suit Coolant Temperature is rising.</Value>
+    </Record>
+
+
+    <Record>
+      <Key>StatusIconInSlotName</Key>
+      <Value>You are currently inside a slot.</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconClimbingName</Key>
+      <Value>You are currently climbing a ladder.</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconUnconsciousName</Key>
+      <Value>You are currently unconscious.</Value>
+    </Record>
+
+    <Record>
+      <Key>StatusIconMoodName</Key>
+      <Value>Current Mood</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHygieneName</Key>
+      <Value>Current Hygiene</Value>
+    </Record>
+  </ScreenSpaceToolTips>
+</Language>
