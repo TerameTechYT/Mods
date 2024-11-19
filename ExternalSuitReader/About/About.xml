@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>ExternalSuitReader</Name>
+  <Name>External Suit Reader [StationeersMods]</Name>
   <Author>vinus</Author>
   <Version>v1.0</Version>
   <Description>
-    [h1]ExternalSuitReader[/h1]
+    [h1]External Suit Reader[/h1]
     [b]WARNING:[/b] This is a StationeersMods Plugin Mod. It requires Bepinex to be installed with the StationeersMods plugin.
     See: https://github.com/jixxed/StationeersMods
 

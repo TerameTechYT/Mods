@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>BetterPowerMod</Name>
+  <Name>Better Power Mod [StationeersMods]</Name>
   <Author>vinus</Author>
   <Version>v1.0.0</Version>
   <Description>
-    [h1]BetterPowerMod[/h1]
+    [h1]Better Power Mod[/h1]
     [b]WARNING:[/b] This is a StationeersMods Plugin Mod. It requires Bepinex to be installed with the StationeersMods plugin.
     See: https://github.com/jixxed/StationeersMods
 

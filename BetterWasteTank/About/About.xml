@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>BetterWasteTank</Name>
+  <Name>Better Waste Tank [StationeersMods]</Name>
   <Author>vinus</Author>
   <Version>v1.1</Version>
   <Description>
-    [h1]BetterWasteTank[/h1]
+    [h1]Better Waste Tank[/h1]
     [b]WARNING:[/b] This is a StationeersMods Plugin Mod. It requires Bepinex to be installed with the StationeersMods plugin.
     See: https://github.com/jixxed/StationeersMods
 
