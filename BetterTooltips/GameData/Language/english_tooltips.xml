@@ -3,47 +3,52 @@
   <Name>English</Name>
   <Code>EN</Code>
   <Font>font_english</Font>
+
   <ScreenSpaceToolTips>
     <!-- Health Tooltips -->
     <Record>
       <Key>StatusIconHealthName</Key>
-      <Value>Current Health</Value>
+      <Value>Health</Value>
     </Record>
     <Record>
       <Key>StatusIconHealthKey</Key>
-      <Value>Current Health</Value>
+      <Value>Health</Value>
     </Record>
     <Record>
-      <Key>StatusIconHydrationDesc</Key>
-      <Value>Health is running low.</Value>
+      <Key>StatusIconHealthDesc</Key>
+      <Value>Your health is running low. Make sure you arent thirsty or hungry, or take a pill to regenerate your health.</Value>
     </Record>
 
-    <!-- Stun Tooltips -->
+    <!-- Stun/Cognition Tooltips -->
     <Record>
       <Key>StatusIconStunName</Key>
-      <Value>Stun Percentage</Value>
+      <Value>Cognition</Value>
     </Record>
     <Record>
       <Key>StatusIconStunKey</Key>
-      <Value>Stun Percentage</Value>
+      <Value>Cognition</Value>
     </Record>
     <Record>
       <Key>StatusIconStunDesc</Key>
       <Value>You are currently falling unconscious.</Value>
     </Record>
+    <Record>
+      <Key>StatusIconUnconsciousName</Key>
+      <Value>You are currently unconscious.</Value>
+    </Record>
 
     <!-- Toxin Tooltips -->
     <Record>
       <Key>StatusIconToxinName</Key>
-      <Value>Current Toxin Level</Value>
+      <Value>Toxin Level</Value>
     </Record>
     <Record>
       <Key>StatusIconToxinKey</Key>
-      <Value>Current Toxin Level</Value>
+      <Value>Toxin Level</Value>
     </Record>
     <Record>
       <Key>StatusIconToxinDescription</Key>
-      <Value>The atmosphere you are breathing is polluted and is causing significant damage to your lungs.</Value>
+      <Value>The atmosphere you are breathing is polluted and is causing damage to your lungs.</Value>
     </Record>
 
     <!-- Oxygen Tooltips -->
@@ -64,87 +69,88 @@
     <!-- Air Tank Tooltips -->
     <Record>
       <Key>StatusIconAirTankName</Key>
-      <Value>Suit Air Tank Capacity</Value>
+      <Value>Air Tank</Value>
     </Record>
     <Record>
       <Key>StatusIconAirTanKey</Key>
-      <Value>Suit Air Tank Capacity</Value>
+      <Value>Air Tank</Value>
     </Record>
     <Record>
-      <Key>StatusIconAirTanDesc</Key>
-      <Value>Suit Air Tank Capacity is almost empty.</Value>
+      <Key>StatusIconAirTankDesc</Key>
+      <Value>Your air tank is almost empty. Fill it up on the side of the portable oxygen tank.</Value>
     </Record>
 
     <!-- Waste Tank Tooltips -->
     <Record>
       <Key>StatusIconWasteName</Key>
-      <Value>Suit Waste Capacity</Value>
+      <Value>Waste Tank</Value>
     </Record>
     <Record>
       <Key>StatusIconWasteKey</Key>
-      <Value>Suit Waste Capacity</Value>
+      <Value>Waste Tank</Value>
     </Record>
     <Record>
       <Key>StatusIconWasteDesc</Key>
-      <Value>Suit Waste Capacity is almost full.</Value>
+      <Value>Your waste tank is almost full. You can empty your tank by opening it.</Value>
     </Record>
 
     <!-- Battery Power Tooltips -->
     <Record>
       <Key>StatusIconPowerName</Key>
-      <Value>Suit Power Supply</Value>
+      <Value>Battery Charge</Value>
     </Record>
     <Record>
       <Key>StatusIconPowerKey</Key>
-      <Value>Suit Power Supply</Value>
+      <Value>Battery Charge</Value>
     </Record>
     <Record>
       <Key>StatusIconPowerDesc</Key>
-      <Value>Suit Power Supply is running low.</Value>
+      <Value>Your battery charge is running low. Charge it in a battery charger or APC (Area Power Controller)</Value>
     </Record>
 
 
     <!-- Filter Tooltips -->
     <Record>
       <Key>StatusIconFilterName</Key>
-      <Value>Suit Filter Capacity</Value>
+      <Value>Filter Capacity</Value>
     </Record>
     <Record>
       <Key>StatusIconFilterKey</Key>
-      <Value>Suit Filter Capacity</Value>
+      <Value>Filter Capacity</Value>
     </Record>
     <Record>
       <Key>StatucIconFilterDesc</Key>
-      <Value>Suit Filter Capacity is running low.</Value>
+      <Value>Your suit filter capacity is running low. Make new filters in the Pipe Bender.</Value>
     </Record>
 
     <!-- Temperature Tooltips -->
     <Record>
       <Key>StatusIconTemperatureName</Key>
-      <Value>Suit Internal Temperature</Value>
+      <Value>Environment temperature</Value>
     </Record>
     <Record>
       <Key>StatusIconTemperatureKey</Key>
-      <Value>Suit Internal Temperature</Value>
+      <Value>Environment temperature</Value>
     </Record>
     <Record>
       <Key>StatusIconTemperatureDesc</Key>
-      <Value>Suit Internal Temperature is high or low.</Value>
+      <Value>Environment temperature is unsafe.</Value>
     </Record>
 
     <!-- Pressure Tooltips -->
     <Record>
       <Key>StatusIconPressureName</Key>
-      <Value>Suit Internal Pressure</Value>
+      <Value>Environment pressure</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureKey</Key>
-      <Value>Suit Internal Pressure</Value>
+      <Value>Environment pressure</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureDesc</Key>
-      <Value>Suit Internal Pressure is high or low.</Value>
+      <Value>Environment pressure is unsafe.</Value>
     </Record>
+
     <!-- Leaking Tooltips -->
     <Record>
       <Key>StatusIconLeakingName</Key>
@@ -156,35 +162,35 @@
     </Record>
     <Record>
       <Key>StatucIconLeakingDesc</Key>
-      <Value>Suit is Leaking atmosphere, repair using duct tape.</Value>
+      <Value>Your suit is leaking atmosphere, repair it using duct tape.</Value>
     </Record>
 
     <!-- Hydration Tooltips -->
     <Record>
       <Key>StatusIconHydrationName</Key>
-      <Value>Current Hydration</Value>
+      <Value>Hydration</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationKey</Key>
-      <Value>Current Hydration</Value>
+      <Value>Hydration</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationDesc</Key>
-      <Value>Hydration is running low.</Value>
+      <Value>You are thirsty.</Value>
     </Record>
 
     <!-- Hunger Tooltips -->
     <Record>
       <Key>StatusIconHungerName</Key>
-      <Value>Current Hunger</Value>
+      <Value>Hunger</Value>
     </Record>
     <Record>
       <Key>StatusIconHungerKey</Key>
-      <Value>Current Hunger</Value>
+      <Value>Hunger</Value>
     </Record>
     <Record>
       <Key>StatusIconHungerDesc</Key>
-      <Value>Hunger is running low.</Value>
+      <Value>You are hungry.</Value>
     </Record>
 
     <!-- Gravity Tooltips -->
@@ -198,7 +204,7 @@
     </Record>
     <Record>
       <Key>StatusIconGravityDesc</Key>
-      <Value>Zero Gravity</Value>
+      <Value>There is currently zero gravity.</Value>
     </Record>
 
     <!-- Jetpack Tooltips -->
@@ -212,24 +218,10 @@
     </Record>
     <Record>
       <Key>StatusIconJetpackWarningDesc</Key>
-      <Value>Jetpack Propellant is running low.</Value>
+      <Value>Your jetpack propellant is almost empty.</Value>
     </Record>
 
-    <!-- Coolant Tooltips -->
-    <Record>
-      <Key>StatusIconCoolantName</Key>
-      <Value>Suit Coolant Temperature</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconCoolantKey</Key>
-      <Value>Suit Coolant Temperature</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconCoolantDesc</Key>
-      <Value>Suit Coolant Temperature is rising.</Value>
-    </Record>
-
-
+    <!-- Extra Tooltips -->
     <Record>
       <Key>StatusIconInSlotName</Key>
       <Value>You are currently inside a slot.</Value>
@@ -238,9 +230,19 @@
       <Key>StatusIconClimbingName</Key>
       <Value>You are currently climbing a ladder.</Value>
     </Record>
+
+    <!-- Unimplemented -->
     <Record>
-      <Key>StatusIconUnconsciousName</Key>
-      <Value>You are currently unconscious.</Value>
+      <Key>StatusIconCoolantName</Key>
+      <Value>Coolant Temperature</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantKey</Key>
+      <Value>Coolant Temperature</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantDesc</Key>
+      <Value>Yor suits coolant temperature is rising.</Value>
     </Record>
 
     <Record>
